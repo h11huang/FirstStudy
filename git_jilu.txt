@@ -4,3 +4,13 @@
 3.git commit -m "修改信息" 将本地缓存中的内容提交到本地的仓库
 4.git push (将本地推送到远程仓库)
 5.git pull (将远程内容合并到本地)
+
+
+ctrl+r （替换）
+
+PYtest:
+
+pytest -q 文件名.py  (运行某个包下某个py文件)
+pytest 包名  (运行此包下所有py文件)
+pytest 文件名.py ::方法名  （运行py文件下某方法）
+pytest 文件名.py --thml = report.thml  (生成html报告)
